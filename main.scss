@@ -322,20 +322,17 @@ img.icon {
 @media (min-width: 1250px) {
   body {
     padding-top: 113px;
+    overscroll-behavior: none;
   }
 }
+
 @media (max-width: 1250px) {
   body {
     padding-top: 99px;
+    overscroll-behavior: none;
   }
 }
 
-
-@media (min-width: 1250px) {
-  body {
-    padding-top: 113px;
-  }
-}
 
 @media (max-width: 1095px) {
   .modal-body iframe {
