@@ -36,6 +36,12 @@ $theme-colors: (
   right: 5%;
 }
 
+//Removes qr code for mobile
+@media (max-width: 565px) {
+  .navbar img {
+    display: none;
+  }
+}
 
 //Introduction
 .introduction {
