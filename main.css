@@ -6,7 +6,6 @@
   font-style: normal;
   font-display: swap;
 }
-/* Navbar */
 .navbar-brand {
   padding-left: 2%;
 }
@@ -25,7 +24,7 @@
 
 .introduction {
   position: relative;
-  height: 200px;
+  height: auto;
   width: 100vw;
   background-color: #e0f0e7;
   font-size: 1rem;
@@ -35,7 +34,7 @@
 @media (max-width: 613px) {
   .introduction {
     position: relative;
-    height: 250px;
+    height: auto;
     width: 100vw;
     background-color: #e0f0e7;
     font-size: 1rem;
@@ -45,6 +44,8 @@
 .about-me-text {
   font-family: "Bookish-Off-White";
   font-size: larger;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .about-me-header {
@@ -119,6 +120,8 @@ img.icon {
   display: flex;
   flex-direction: column;
   flex: 1;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .university-coursework {
@@ -126,8 +129,15 @@ img.icon {
   flex-direction: column;
   padding-left: 7%;
   font-family: Bookish-Off-White;
-  font-size: x-large;
-  list-style-type: disk;
+  font-size: larger;
+}
+
+.university-subheader {
+  padding-left: 6%;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: -10px;
 }
 
 .contact-info-text {
@@ -282,16 +292,13 @@ img.icon {
 @media (min-width: 1250px) {
   body {
     padding-top: 113px;
+    overscroll-behavior: none;
   }
 }
 @media (max-width: 1250px) {
   body {
     padding-top: 99px;
-  }
-}
-@media (min-width: 1250px) {
-  body {
-    padding-top: 113px;
+    overscroll-behavior: none;
   }
 }
 @media (max-width: 1095px) {
